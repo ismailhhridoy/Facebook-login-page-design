@@ -1,0 +1,52 @@
+/* ========================== */
+/* Responsive design start here */
+/* ========================== */
+
+/* ================= */
+/* 1100px screen  */
+/* ================= */
+
+@media (max-width:1100px) {
+  .container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  .main-area .facebook-help img{
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    margin: auto;
+  }
+  .main-area .facebook-help h3{
+    font-size: 22px;
+  }
+  .main-area{
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .main-area .facebook-help{
+    padding-top:0px;
+    text-align: center;
+    margin-bottom:50px!important;
+  }
+}
+/* ================= */
+/* 900px screen  */
+/* ================= */
+@media (max-width:900px) {
+  .container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.main-area .container{
+  display: flex;
+  flex-direction: column;
+}
+.main-area .container .col-right{
+  margin-left: 0%;
+}
+}
+
+/* ========================== */
+/* Responsive design end here */
+/* ========================== */
